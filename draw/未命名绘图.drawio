@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T05:50:53.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="6n4S_KpbTSu4U6wIc3IZ" version="21.1.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-17T05:57:29.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sLSpLfBklIH910lYxFav" version="21.1.7" type="github" pages="2">
   <diagram name="第 1 页" id="wF8RmPH4EmUKHOYBFlst">
     <mxGraphModel dx="1304" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -765,6 +765,9 @@
             <mxPoint x="450" y="2530" as="sourcePoint" />
             <mxPoint x="500" y="2480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KJfoTuPKBoh-HclMiz4g-54" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;1、给 &lt;font color=&quot;#cc0000&quot;&gt;AbstractApplicationContext.refresh()&lt;/font&gt; 方法最后一行打断点，分析工厂中增强了哪些后置处理器。getBean 的整个环节，都干了什么？&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;b&gt;2、分析 Spring 在哪些环节想给容器中注册哪些Bean定义信息。给 &lt;font color=&quot;#cc0000&quot;&gt;RootBeanDefinition&lt;/font&gt; 构造器打断点；能看到spring的整个完整图谱&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="809.67" y="1754" width="540.33" height="56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
